@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Game</title>
+    <style>
+        #countLable{
+            display: block;
+            text-align: center;
+            font-size: 10em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .btnContainer{
+            text-align: center;
+            margin-top: auto;
+        }
+        body{
+            width: 100%;
+        }
+        .btnContainer button{
+            color: #ffffff;
+            padding: 10px 20px;
+            font-size: 1.5em;
+            background-color: rgb(45, 187, 248);
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.25s ;
+        }
+        .btnContainer button:hover{
+            background-color: rgb(10, 55, 74);
+        }
+    </style>
+</head>
+
+<body>
+    <label id="countLable">0</label>
+    <div class="btnContainer">
+        <button id="decreaseBtn">Decrease👎</button>
+        <button id="resetBtn">Reset🌀</button>
+        <button id="increaseBtn">increase👍</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
